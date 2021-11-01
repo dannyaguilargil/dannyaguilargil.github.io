@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="css/estilos.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="imgs/emoji.ico">
+  </head>
+<header>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" > 
+            <img src="imgs/emoji.ico" alt="" style="width: 20px; height: 20px;">
+            Mi portafolio
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">El rincon de proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Videos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mis codigos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">JS</a></li>
+                  <li><a class="dropdown-item" href="#">JAVA</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">PYTHON</a></li>
+                </ul>
+              </li>
+                
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--NAVBAR-->
+</header>
+<body>
+
+    <!--SLIDESHOW-->
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           
+            <img src="imgs/portada1.jpg" class="d-block w-100" alt="portada" id="slidesshowImg">
+            <!-- Descripcion de abajo -->
+            
+            <div class="carousel-caption">
+                <h2 id="tmundo"> <b>Hola mundo!!!</b></h2>
+                <h4>Bienvenido a mi portafolio</h4>
+                <h5>Soy Danny Aguilar, amante de la programacion y de la seguridad informatica.</h5>
+                <div class="arrowDown">
+                  <a href="">
+                <img src="imgs/flecha-abajo.png" alt="flecha" style="width: 64px;">
+                  </a>
+                </div>
+            </div>
+            <!-- Descripcion de abajo -->
+          </div>
+          
+          <div class="carousel-item">
+            <!--Marvin meyer -->
+            <img src="imgs/portada2.jpg" class="d-block w-100" alt="portada1" id="slidesshowImg">
+            
+          <!-- Descripcion de abajo -->
+          <div class="carousel-caption">
+            <div class="contenido_danya">
+            <h4 class="tit_danya">DANYA SOLUCIONES INFORMATICAS</h4>
+            <br>
+            <h5> Emprendimiento dedicado a dar soluciones informaticas en el departamento de Norte de Santander ofreciendo diversos servicios y destacandonos por la calidad.</h5>
+           <br> 
+            <h4> <b>Soporte tecnico a domicilio y via remoto.</b></h4>
+              <a href="https://www.google.com/maps/dir/7.1490704,-73.1445838/danya+soluciones+informaticas/@7.4985717,-73.1098796,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8e664f8261ad29fd:0x495d0a50f2b1ba71!2m2!1d-72.5307244!2d7.8895019" class="btn btn-warning fas fa-map-marker-alt"></a>
+              <a href="https://www.youtube.com/channel/UCfqc8gV2OeWw6rH0uc0BM3A" class="btn btn-danger fab fa-youtube"></a>
+              <a href="" class="btn btn-info fab fa-twitter"></a>
+              <a href="" class="btn btn-secondary fab fa-instagram"></a>
+              <a href="https://api.whatsapp.com/send?phone=+573223390961" class="btn btn-success fab fa-whatsapp"></a>
+              <a href="" class="btn btn-primary fab fa-telegram"></a>
+
+            </div>
+          </div>  
+          <!-- Descripcion de abajo -->
+          </div>
+          <!--AQUI VAN LOS CODIGOS-->
+          <!--
+                    <div class="carousel-item">
+                      <a href="#">
+                      <img src="imgs/portada.jpg" class="d-block w-100" alt="portada2" id="slidesshowImg">
+                    </a>
+                    Descripcion de abajo 
+                    <div class="carousel-caption d-none  d-md-block">
+                      <h5>Mis codigos....</h5>
+                  </div>
+                  Descripcion de abajo 
+                    </div>
+                  -->
+
+
+        </div>
+
+
+
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--SLIDESHOW-->
+
+
+
+      <h5 class="tit_serv">Servicios</h5>
+
+      <!--BANNER-->
+        <div class="container">
+          <div class="row">
+              <div class="cajas col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <h4 class="tit_equip">Equipos de computos</h4>
+                <ul>
+                  <li class="font-caja">Instalacion de Sistemas operativos</li>
+                  <li class="font-caja">Mantenimiento de los equipos</li>
+                  <li class="font-caja">Instalacion de programas o videojuegos</li>
+                  <li class="font-caja">Cambio de repuestos</li>
+                </ul>
+              </div>
+
+              <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+
+
+              <div class="cajas col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <h4 class="tit_equip">Moviles</h4>
+                <ul>
+                  <li class="font-caja">Flasheos y aperturas de bandas</li>
+                  <li class="font-caja">Instalacion de S.o</li>
+                  <li class="font-caja">Mantenimiento de los equipos</li>
+                  <li class="font-caja">Instalacion de programas o videojuegos</li>
+                  <li class="font-caja">Cambio de repuestos</li>
+                </ul>
+              </div>
+
+              <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+
+              <div class="cajas col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <h4 class="tit_equip">Otros servicios</h4>
+                <ul>
+                  <li class="font-caja">Desarollo de software</li>
+                  <li class="font-caja">Desarollo web</li>
+                  <li class="font-caja">Seguridad informatica defensiva</li>
+                  <li class="font-caja">Formulacion de proyectos informaticos</li>
+                </ul>
+              </div>
+        </div>
+      <!--BANNER-->
+
+
+      
+      
+      <footer></footer>
+      
+
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/9ea064c718.js" crossorigin="anonymous"></script>
+</body>
+</html>

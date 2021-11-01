@@ -1,0 +1,74 @@
+body{
+    background: yellowgreen;
+}
+#slidesshowImg{
+    height: 750px;
+    object-fit: cover;
+}
+/* contenido que se muestra encima de la imagen*/
+.carousel-caption{
+    text-align: center;
+    top: 10%;
+    bottom: auto;
+}
+#tmundo{
+   color: yellow;
+}
+.arrowDown{
+    margin-top: 25%;
+    animation: bounce 3s infinite;
+}
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY-(30px);
+    }
+    60%{
+        transform: translateY(-15px);
+    }
+}
+.cajas{
+    background: #33FFBB  ;
+    border-color: green;
+    border-style: dotted;
+    border-radius: 10px;
+    color: yellow;
+    padding-left: 50px;
+    
+}
+ul li{
+    color: ghostwhite;
+}
+
+.tit_serv{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background: white;
+}
+.tit_danya{
+    color: green;
+}
+.contenido_danya{
+    color: rgb(161, 153, 136);
+    background: white;
+    border-radius: 50px;
+    border-style: dashed;
+    border-color: yellow;
+}
+.nav-link{
+
+    border-color: grey;
+}
+.nav-link:hover{
+    background: yellow;
+}
+.font-caja{
+    color: black;
+}
+ul{
+    color: white;
+}
