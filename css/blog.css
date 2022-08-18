@@ -1,0 +1,25 @@
+header-wrapper {
+    width:1100px;
+    margin:10 auto 10px;
+    border:1px solid #446688;
+    }
+    #header {
+    margin: 5px;
+    border: 1px solid #446688;
+    text-align: center;
+    color:#eeeeee;
+    }
+    #header h1 {
+    margin:5px 5px 0;
+    padding:15px 20px .25em;
+    line-height:1.2em;
+    text-transform:uppercase;
+    letter-spacing:.2em;
+    font: normal bold 200% 'Trebuchet MS',Trebuchet,Verdana,Sans-serif;
+    }
+.title{
+    color: yellow;
+}
+.description{
+    color: grey;
+}
