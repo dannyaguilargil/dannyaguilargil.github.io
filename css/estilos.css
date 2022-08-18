@@ -11,6 +11,7 @@ body{
     text-align: center;
     top: 10%;
     bottom: auto;
+    
 }
 #tmundo{
    color: yellow;
@@ -31,12 +32,13 @@ body{
     }
 }
 .cajas{
-    background: #33FFBB  ;
-    border-color: green;
+    background: black  ;
+    border-color: orange;
     border-style: dotted;
     border-radius: 10px;
     color: yellow;
     padding-left: 50px;
+    bottom: 10px;
     
 }
 ul li{
@@ -45,6 +47,9 @@ ul li{
 
 .tit_serv{
     text-align: center;
+    color: orange;
+    border-bottom: black;
+    background: black;
 }
 footer{
     text-align: center;
@@ -68,7 +73,7 @@ footer{
     background: yellow;
 }
 .font-caja{
-    color: black;
+    color: green;
 }
 ul{
     color: white;
@@ -78,4 +83,13 @@ ul{
     background: yellow;
     border-style: dotted;
     border-color: orange;
+}
+.navbar{
+    background: black;
+}
+header{
+    background: black;
+}
+head{
+    background: black;
 }
