@@ -2,8 +2,9 @@ body{
     background: yellowgreen;
 }
 #slidesshowImg{
-    height: 750px;
+    height: 700px;
     object-fit: cover;
+    
 }
 /* contenido que se muestra encima de la imagen*/
 .carousel-caption{
