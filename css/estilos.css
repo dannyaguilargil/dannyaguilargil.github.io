@@ -75,4 +75,6 @@ ul{
 .portafolio{
     border-radius: 10px;
     background: yellow;
+    border-style: dotted;
+    border-color: orange;
 }
