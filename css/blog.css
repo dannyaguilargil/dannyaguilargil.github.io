@@ -23,3 +23,10 @@ header-wrapper {
 .description{
     color: grey;
 }
+footer{
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+}
