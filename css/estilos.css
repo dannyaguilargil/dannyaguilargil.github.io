@@ -72,3 +72,7 @@ footer{
 ul{
     color: white;
 }
+.portafolio{
+    border-radius: 10px;
+    background: yellow;
+}
