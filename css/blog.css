@@ -27,8 +27,7 @@ footer{
     text-align: right;
     position: absolute;
     bottom: 0px;
-    right: 10px;
-
+    right: 2px;
 }
 .nav-link{
 
@@ -45,4 +44,9 @@ footer{
 }
 a{
     font-family: 'Courier New', Courier, monospace;
+}
+body{
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
 }
