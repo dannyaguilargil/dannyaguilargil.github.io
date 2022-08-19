@@ -93,3 +93,6 @@ header{
 head{
     background: black;
 }
+a{
+    font-family: 'Courier New', Courier, monospace;
+}

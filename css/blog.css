@@ -30,3 +30,19 @@ footer{
     right: 10px;
 
 }
+.nav-link{
+
+    border-color: grey;
+}
+.nav-link:hover{
+    background: yellow;
+}
+.blog{
+    border-radius: 10px;
+    background: yellow;
+    border-style: dotted;
+    border-color: orange;
+}
+a{
+    font-family: 'Courier New', Courier, monospace;
+}
