@@ -121,23 +121,35 @@ h6{
 }
 @media screen and (max-width: 480px){
     .cajita_medio{
-        background-color: yellow;
+        background-color: azure;
 
     }
     .foto{
         position: absolute;
         top: 340px;
-        left: 60px;
+        left: 175px
     }
     .perfil{
         position: absolute;
-        top: 310px;
-        left: 85px;
+        top: 314px;
+        left: 210px;
     }
     .herramientas{
         display: none;
     }
     .cajitagrande{
         display: none;
+    }
+    .cajitas{
+        margin: auto;
+    }
+    .cajita_medio{
+        margin: auto;
+    }
+    .bc{
+        text-align: center;
+    }
+    .frontend_tit{
+        text-align: center;
     }
 }
