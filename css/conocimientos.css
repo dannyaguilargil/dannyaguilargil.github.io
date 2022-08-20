@@ -119,3 +119,25 @@ h6{
     width: 250px;
     height: 240px;
 }
+@media screen and (max-width: 480px){
+    .cajita_medio{
+        background-color: yellow;
+
+    }
+    .foto{
+        position: absolute;
+        top: 340px;
+        left: 60px;
+    }
+    .perfil{
+        position: absolute;
+        top: 310px;
+        left: 85px;
+    }
+    .herramientas{
+        display: none;
+    }
+    .cajitagrande{
+        display: none;
+    }
+}
