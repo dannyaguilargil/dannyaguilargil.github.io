@@ -121,18 +121,13 @@ h6{
 }
 @media screen and (max-width: 480px){
     .cajita_medio{
-        background-color: azure;
-
+        display: none;
     }
     .foto{
-        position: absolute;
-        top: 340px;
-        left: 175px
+        display: none;
     }
     .perfil{
-        position: absolute;
-        top: 314px;
-        left: 210px;
+        display: none;
     }
     .herramientas{
         display: none;
@@ -140,16 +135,9 @@ h6{
     .cajitagrande{
         display: none;
     }
-    .cajitas{
+    .casadora{
+        padding: 10px;
         margin: auto;
     }
-    .cajita_medio{
-        margin: auto;
-    }
-    .bc{
-        text-align: center;
-    }
-    .frontend_tit{
-        text-align: center;
-    }
+    
 }
