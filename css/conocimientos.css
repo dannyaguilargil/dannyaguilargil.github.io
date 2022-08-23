@@ -141,3 +141,8 @@ h6{
     }
     
 }
+.portafolio{
+    border-radius: 10px;
+    border-style: double solid;
+    border-color: orange;
+}

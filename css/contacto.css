@@ -1,3 +1,8 @@
+.izquierda{
+    border-color: yellow;
+    border-style: dashed;
+    border-width: 1px;
+}
 body{
     background: yellowgreen;
 }
@@ -78,6 +83,11 @@ footer{
 ul{
     color: white;
 }
+.portafolio{
+    border-radius: 10px;
+    border-style: double solid;
+    border-color: orange;
+}
 .navbar{
     background: black;
 }
@@ -90,8 +100,6 @@ head{
 a{
     font-family: 'Courier New', Courier, monospace;
 }
-.portafolio{
-    border-radius: 10px;
-    border-style: double solid;
-    border-color: orange;
+footer{
+    display: none;
 }

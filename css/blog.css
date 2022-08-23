@@ -50,3 +50,8 @@ body{
     padding-bottom: 3.5em;
     min-height: 100vh;
 }
+.portafolio{
+    border-radius: 10px;
+    border-style: double solid;
+    border-color: orange;
+}
