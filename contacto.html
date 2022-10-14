@@ -67,29 +67,44 @@
 </header>
 <body>
 
-<br> <br>
-    <div class="container text-center">
-        <div class="row">
-          <div class="izquierda col">
-            <div class="mb-3 row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                  <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
-                </div>
-              </div>
-              <div class="mb-3 row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-                <div class="col-sm-10">
-                  <input type="password" class="form-control" id="inputPassword">
-                </div>
-              </div>
-          </div>
-          <div class="derecha col">
-            mapa
-          </div>
-        </div>
-      </div>
-    
+  <body>
+	
+		<aside>
+			<h2 id="contactame">Contactame</h2>
+			<form  action="https://formsubmit.co/danny.aguilar.gil@gmail.com" method="POST">
+			<fieldset id="datos" >
+			<legend>Datos de usuario</legend>
+			<form action="" method="post"></form>
+			<label class="labeles" for="nombres">Nombre:</label>
+			<input type="text" name="nombres" id="nombres" autofocus>
+			<label class="labeles" for="apellido">Apellidos:</label>
+			<input type="text" name="apellido" id="apellido"><br>
+			<label class="labeles" for="telefono">Telefono:</label>
+			<input type="number" max="10
+		    " name="telefono" id="telefono">
+			<label class="labeles" for="email" >Correo:</label>
+			<input type="text" name="email" id="email" required=""><br>
+			</fieldset>
+			<fieldset id="mensaje">
+			<!--<label id="men" class="labeles" for="mensaje">Mensaje:</label> -->
+			 <textarea rows="5" cols="50"> Escribe aqui tu mensaje</textarea> 
+			<input id="env" href="mailto:danny.aguilar.gil@gmail.com"  type="submit" value="Enviar">
+		  </fieldset>
+      </form>
+		</aside>
+		<section>
+			 <div class="contactoo">
+                <h4 id="mas">Mas informacion</h4>
+                <p>
+                            
+                            danny.aguilar@unipamplona.edu.co<br>
+                            Movil(+57)3223390961
+            </p>
+            </div>
+		</section>
+
+	</section>
+
       <footer>
         pie de pagina
       </footer>

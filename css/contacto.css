@@ -103,3 +103,108 @@ a{
 footer{
     display: none;
 }
+
+#contactame{
+    color: orange;
+    text-align: center;
+    font-family: arial;
+}
+#nombre{
+	color: black;
+	font-size: 2em;
+	padding-left: 40px;
+}
+#e1{
+    color: black;
+    text-decoration: none;
+
+}
+#e1:hover{
+    color: yellow;
+    text-decoration: underline dotted;
+    font-size: 1.1em;
+}
+#e2{
+    color: white;
+    text-decoration: none;
+}
+#e2:hover{
+    color: yellow;
+    text-decoration: underline dotted;
+    font-size: 1.1em;
+}     
+#e3{
+    color: white;
+    text-decoration: none;
+}
+#e3:hover{
+    color: yellow;
+    text-decoration: underline dotted;
+    font-size: 1.1em;
+}
+#e4{
+    color: white;
+    text-decoration: underline dotted;
+}
+#e4:hover{
+    color: yellow;
+    text-decoration: underline dotted;
+   
+}
+#link{
+	float: right;
+	top: 23px;
+	right: 20px;
+	position: absolute;
+	font-size: 2em;
+	color: white;
+	box-shadow: 0px 8px 5px 4px;
+}
+aside{
+    width: 70%;
+    min-width: 70%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 10px;
+}
+section{
+    width: 70%;
+    min-width: 70%;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+label{
+    width: 130px;
+    display: inline-block;
+    margin-bottom: 9px;
+}
+fieldset{
+  
+    text-align: center;
+    margin-bottom: 9px;
+    left: 330px;
+}
+
+.labeles{
+    color: black;
+}
+#mas{
+    font-family: arial;
+    color: white;
+}
+#env{
+    border-radius: 5px;
+    border-style: solid;
+
+    text-decoration: none;
+   
+    padding: 2px;
+    position: absolute;
+    top: 280px;
+}
+#men{
+    position: absolute;
+     top: 278px;
+     left: 288px;
+}
