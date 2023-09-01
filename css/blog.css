@@ -18,7 +18,7 @@ header-wrapper {
     font: normal bold 200% 'Trebuchet MS',Trebuchet,Verdana,Sans-serif;
     }
 .title{
-    color: yellow;
+    color: green;
 }
 .description{
     color: grey;
@@ -34,14 +34,9 @@ footer{
     border-color: grey;
 }
 .nav-link:hover{
-    background: yellow;
+    background: green;
 }
-.blog{
-    border-radius: 10px;
-    background: yellow;
-    border-style: dotted;
-    border-color: orange;
-}
+
 a{
     font-family: 'Courier New', Courier, monospace;
 }
@@ -53,5 +48,5 @@ body{
 .portafolio{
     border-radius: 10px;
     border-style: double solid;
-    border-color: orange;
+    border-color: green;
 }
