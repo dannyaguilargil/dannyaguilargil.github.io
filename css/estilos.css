@@ -1,5 +1,9 @@
+*{
+    font-family: 'Fira code, Courier, monospace;
+}
 body{
     background: yellowgreen;
+    font-family: 'Fira code, Courier, monospace;
 }
 #slidesshowImg{
     height: 700px;
@@ -32,11 +36,11 @@ body{
     }
 }
 .cajas{
-    background: black  ;
-    border-color: orange;
+   
+    border-color: green;
     border-style: dotted;
     border-radius: 10px;
-    color: yellow;
+    color: black;
     padding-left: 50px;
     bottom: 10px;
     
@@ -47,9 +51,9 @@ ul li{
 
 .tit_serv{
     text-align: center;
-    color: orange;
-    border-bottom: black;
-    background: black;
+    color: green;;
+   
+
 }
 footer{
     text-align: center;
@@ -70,7 +74,7 @@ footer{
     border-color: grey;
 }
 .nav-link:hover{
-    background: yellow;
+    background: green;
 }
 .font-caja{
     color: green;
@@ -88,10 +92,10 @@ head{
     background: black;
 }
 a{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fira code, Courier, monospace;
 }
 .portafolio{
     border-radius: 10px;
     border-style: double solid;
-    border-color: orange;
+    border-color: green;
 }
