@@ -33,9 +33,10 @@ footer{
 
     border-color: grey;
 }
-.cono{
-    background: yellow;
+.nav-link:hover{
+    background: green;
 }
+
 .blog{
     border-radius: 10px;
     background: yellow;
@@ -54,7 +55,7 @@ body{
 .cajitas{
     background: white;
     border-style: groove;
-    border-color: black;
+    
     color: black;
     width: 250px;
     height: 200px;
@@ -78,7 +79,7 @@ h5{
     text-align: center;
     width: 670px;
     height: 200px;
-    background: black;
+
     border-style: groove;
     border-color: white;
     color: white;
@@ -144,5 +145,5 @@ h6{
 .portafolio{
     border-radius: 10px;
     border-style: double solid;
-    border-color: orange;
+    border-color: green;
 }
